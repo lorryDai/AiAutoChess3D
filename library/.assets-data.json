@@ -1,0 +1,128 @@
+{
+  "c1e5a3b7-2d48-4f69-8a0b-7c3d5e9f1a26": {
+    "url": "db://assets/Scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "d2f6b4c8-3e59-4a7b-9c1d-8e4f6a0b2c37": {
+    "url": "db://assets/Script",
+    "value": {},
+    "versionCode": 1
+  },
+  "e3a7c5d9-4f6a-4b8c-9d2e-a05b7c1d3e48": {
+    "url": "db://assets/Script/config",
+    "value": {},
+    "versionCode": 1
+  },
+  "a5c9e7fb-6b8c-4dae-9f40-b17c9d3e5f6a": {
+    "url": "db://assets/Script/core",
+    "value": {},
+    "versionCode": 1
+  },
+  "f4b8d6ea-5a7b-4c9d-8e3f-a16b8c2d4e59": {
+    "url": "db://assets/Script/data",
+    "value": {},
+    "versionCode": 1
+  },
+  "e90d2b3f-afc0-4be2-9a84-f5bad17c9eaf": {
+    "url": "db://assets/Script/fx",
+    "value": {},
+    "versionCode": 1
+  },
+  "c7eb091d-8dae-4fc0-9e62-d39eaf5b7c8d": {
+    "url": "db://assets/Script/manager",
+    "value": {},
+    "versionCode": 1
+  },
+  "d8fc1a2e-9ebf-4ad1-8f73-e4afc06b8d9e": {
+    "url": "db://assets/Script/ui",
+    "value": {},
+    "versionCode": 1
+  },
+  "b6daf80c-7c9d-4ebf-8f51-c28dae4f6a7b": {
+    "url": "db://assets/Script/unit",
+    "value": {},
+    "versionCode": 1
+  },
+  "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d": {
+    "url": "db://assets/Script/config/GameConfig.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3c4d5e6f-7a8b-4c9d-8e1f-2a3b4c5d6e7f": {
+    "url": "db://assets/Script/core/MeshKit.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e": {
+    "url": "db://assets/Script/data/GameData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4d5e6f7a-8b9c-4d0e-9f2a-3b4c5d6e7f80": {
+    "url": "db://assets/Script/fx/FloatingText.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5e6f7a8b-9c0d-4e1f-8a3b-4c5d6e7f8091": {
+    "url": "db://assets/Script/fx/Projectile.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6f7a8b9c-0d1e-4f2a-9b4c-5d6e7f8091a2": {
+    "url": "db://assets/Script/manager/BattleManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7a8b9c0d-1e2f-4a3b-8c5d-6e7f8091a2b3": {
+    "url": "db://assets/Script/manager/BoardManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8b9c0d1e-2f3a-4b4c-9d5e-6f7a8b9c0d24": {
+    "url": "db://assets/Script/manager/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8b9c0d1e-2f3a-4b4c-9d5e-6f7a8b9c0d25": {
+    "url": "db://assets/Script/ui/GameHUD.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "9c0d1e2f-3a4b-4c5d-8e6f-708192a3b4c5": {
+    "url": "db://assets/Script/ui/UIUtil.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0d1e2f3a-4b5c-4d6e-9f70-8192a3b4c5d6": {
+    "url": "db://assets/Script/unit/ChessUnit.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3f2a7c81-6d4b-4e2a-9c15-8b7d5e1a4f30": {
+    "url": "db://assets/Scene/Main.scene",
+    "value": {
+      "depends": [
+        "a71f3c92-4d8b-4c1e-9f60-2b7d5a8e3c41"
+      ],
+      "dependScripts": [
+        "8b9c0d1e-2f3a-4b4c-9d5e-6f7a8b9c0d24"
+      ]
+    },
+    "versionCode": 2
+  },
+  "d4f6b8a2-7c31-4e05-9a48-1f2b6c9d3e57": {
+    "url": "db://assets/Materials",
+    "value": {},
+    "versionCode": 1
+  },
+  "a71f3c92-4d8b-4c1e-9f60-2b7d5a8e3c41": {
+    "url": "db://assets/Materials/Standard.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 1
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "version": "1.0.1",
+  "map": {
+    "Scene": {
+      "time": 1792669609546.7576,
+      "uuid": "c1e5a3b7-2d48-4f69-8a0b-7c3d5e9f1a26"
+    },
+    "Script": {
+      "time": 1792669609544.7568,
+      "uuid": "d2f6b4c8-3e59-4a7b-9c1d-8e4f6a0b2c37"
+    },
+    "Script\\config": {
+      "time": 1792669609549.7595,
+      "uuid": "e3a7c5d9-4f6a-4b8c-9d2e-a05b7c1d3e48"
+    },
+    "Script\\core": {
+      "time": 1792669609551.758,
+      "uuid": "a5c9e7fb-6b8c-4dae-9f40-b17c9d3e5f6a"
+    },
+    "Script\\data": {
+      "time": 1792669609553.7595,
+      "uuid": "f4b8d6ea-5a7b-4c9d-8e3f-a16b8c2d4e59"
+    },
+    "Script\\fx": {
+      "time": 1792669609571.767,
+      "uuid": "e90d2b3f-afc0-4be2-9a84-f5bad17c9eaf"
+    },
+    "Script\\manager": {
+      "time": 1792669609568.7659,
+      "uuid": "c7eb091d-8dae-4fc0-9e62-d39eaf5b7c8d"
+    },
+    "Script\\ui": {
+      "time": 1792669609573.7668,
+      "uuid": "d8fc1a2e-9ebf-4ad1-8f73-e4afc06b8d9e"
+    },
+    "Script\\unit": {
+      "time": 1792669609560.7705,
+      "uuid": "b6daf80c-7c9d-4ebf-8f51-c28dae4f6a7b"
+    },
+    "Script\\config\\GameConfig.ts": {
+      "time": 1792669442173.881,
+      "uuid": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d"
+    },
+    "Script\\core\\MeshKit.ts": {
+      "time": 1792671208662.7083,
+      "uuid": "3c4d5e6f-7a8b-4c9d-8e1f-2a3b4c5d6e7f"
+    },
+    "Script\\data\\GameData.ts": {
+      "time": 1792668474382.9502,
+      "uuid": "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e"
+    },
+    "Script\\fx\\FloatingText.ts": {
+      "time": 1792674817269.1255,
+      "uuid": "4d5e6f7a-8b9c-4d0e-9f2a-3b4c5d6e7f80"
+    },
+    "Script\\fx\\Projectile.ts": {
+      "time": 1792668582700.5989,
+      "uuid": "5e6f7a8b-9c0d-4e1f-8a3b-4c5d6e7f8091"
+    },
+    "Script\\manager\\BattleManager.ts": {
+      "time": 1792677838532.1538,
+      "uuid": "6f7a8b9c-0d1e-4f2a-9b4c-5d6e7f8091a2"
+    },
+    "Script\\manager\\BoardManager.ts": {
+      "time": 1792670140582.068,
+      "uuid": "7a8b9c0d-1e2f-4a3b-8c5d-6e7f8091a2b3"
+    },
+    "Script\\manager\\GameManager.ts": {
+      "time": 1792677730726.7312,
+      "uuid": "8b9c0d1e-2f3a-4b4c-9d5e-6f7a8b9c0d24"
+    },
+    "Script\\ui\\GameHUD.ts": {
+      "time": 1792675098548.146,
+      "uuid": "8b9c0d1e-2f3a-4b4c-9d5e-6f7a8b9c0d25"
+    },
+    "Script\\ui\\UIUtil.ts": {
+      "time": 1792674795434.9214,
+      "uuid": "9c0d1e2f-3a4b-4c5d-8e6f-708192a3b4c5"
+    },
+    "Script\\unit\\ChessUnit.ts": {
+      "time": 1792677676863.222,
+      "uuid": "0d1e2f3a-4b5c-4d6e-9f70-8192a3b4c5d6"
+    },
+    "Scene.meta": {
+      "time": 1792670198226.6638
+    },
+    "Script.meta": {
+      "time": 1792670198229.6648
+    },
+    "Script\\config.meta": {
+      "time": 1792670198231.6648
+    },
+    "Script\\core.meta": {
+      "time": 1792670198233.6655
+    },
+    "Script\\data.meta": {
+      "time": 1792670198235.6907
+    },
+    "Script\\fx.meta": {
+      "time": 1792670198239.691
+    },
+    "Script\\manager.meta": {
+      "time": 1792670198242.6921
+    },
+    "Script\\ui.meta": {
+      "time": 1792670198246.0413
+    },
+    "Script\\unit.meta": {
+      "time": 1792670198248.0413
+    },
+    "Script\\config\\GameConfig.ts.meta": {
+      "time": 1792670198254.1562
+    },
+    "Script\\core\\MeshKit.ts.meta": {
+      "time": 1792670198258.1675
+    },
+    "Script\\data\\GameData.ts.meta": {
+      "time": 1792670198261.1682
+    },
+    "Script\\fx\\FloatingText.ts.meta": {
+      "time": 1792670198263.1687
+    },
+    "Script\\fx\\Projectile.ts.meta": {
+      "time": 1792670198265.4534
+    },
+    "Script\\manager\\BattleManager.ts.meta": {
+      "time": 1792670198270.4517
+    },
+    "Script\\manager\\BoardManager.ts.meta": {
+      "time": 1792670198273.4517
+    },
+    "Script\\manager\\GameManager.ts.meta": {
+      "time": 1792670198275.4875
+    },
+    "Script\\ui\\GameHUD.ts.meta": {
+      "time": 1792670198278.4275
+    },
+    "Script\\ui\\UIUtil.ts.meta": {
+      "time": 1792670198280.4275
+    },
+    "Script\\unit\\ChessUnit.ts.meta": {
+      "time": 1792670198283.4282
+    },
+    "Scene\\Main.scene": {
+      "time": 1792671243057.0962,
+      "uuid": "3f2a7c81-6d4b-4e2a-9c15-8b7d5e1a4f30"
+    },
+    "Scene\\Main.scene.meta": {
+      "time": 1792670204879.9575
+    },
+    "Materials": {
+      "time": 1792670736711.067,
+      "uuid": "d4f6b8a2-7c31-4e05-9a48-1f2b6c9d3e57"
+    },
+    "Materials.meta": {
+      "time": 1792670733920.4832
+    },
+    "Materials\\Standard.mtl": {
+      "time": 1792670734139.3271,
+      "uuid": "a71f3c92-4d8b-4c1e-9f60-2b7d5a8e3c41"
+    },
+    "Materials\\Standard.mtl.meta": {
+      "time": 1792670736891.8098
+    }
+  },
+  "missing": {}
+}

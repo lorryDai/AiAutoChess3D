@@ -1,0 +1,30 @@
+{
+    "version": "1.0.1",
+    "data": {
+        "paths": [
+            "Materials",
+            "Scene",
+            "Script",
+            "Script\\config",
+            "Script\\core",
+            "Script\\data",
+            "Script\\fx",
+            "Script\\manager",
+            "Script\\ui",
+            "Script\\unit",
+            "Script\\config\\GameConfig.ts",
+            "Script\\core\\MeshKit.ts",
+            "Script\\data\\GameData.ts",
+            "Script\\fx\\FloatingText.ts",
+            "Script\\fx\\Projectile.ts",
+            "Script\\manager\\BattleManager.ts",
+            "Script\\manager\\BoardManager.ts",
+            "Script\\manager\\GameManager.ts",
+            "Script\\ui\\GameHUD.ts",
+            "Script\\ui\\UIUtil.ts",
+            "Script\\unit\\ChessUnit.ts",
+            "Materials\\Standard.mtl",
+            "Scene\\Main.scene"
+        ]
+    }
+}

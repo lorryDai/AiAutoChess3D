@@ -1,0 +1,20 @@
+[Error: EPERM: operation not permitted, open 'H:\work\aiGame3D\AutoChess3D\temp\logs\project.log'] {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'H:\\work\\aiGame3D\\AutoChess3D\\temp\\logs\\project.log'
+}
+[34496:1022/212457.354:ERROR:cache_util_win.cc(20)] Unable to move the cache: 拒绝访问。 (0x5)
+[34496:1022/212457.354:ERROR:cache_util_win.cc(20)] Unable to move the cache: 拒绝访问。 (0x5)
+[34496:1022/212457.354:ERROR:cache_util_win.cc(20)] Unable to move the cache: 拒绝访问。 (0x5)
+[34496:1022/212457.372:ERROR:disk_cache.cc(208)] Unable to create cache
+[34496:1022/212457.373:ERROR:gpu_disk_cache.cc(711)] Gpu Cache Creation failed: -2
+[34496:1022/212457.374:ERROR:disk_cache.cc(208)] Unable to create cache
+[34496:1022/212457.374:ERROR:gpu_disk_cache.cc(711)] Gpu Cache Creation failed: -2
+[34496:1022/212457.375:ERROR:disk_cache.cc(208)] Unable to create cache
+[34496:1022/212457.376:ERROR:gpu_disk_cache.cc(711)] Gpu Cache Creation failed: -2
+构建参数 mainBundleCompressionType (merge_dep) 校验失败,  compression type(undefined) is invalid for this platform!, 将会使用默认值 "merge_dep"
+构建参数 debug ("true") 校验失败, typeof debug should be boolean but get true, 将会使用默认值 true
+[34496:1022/212517.943:ERROR:cache_util_win.cc(20)] Unable to move the cache: 拒绝访问。 (0x5)
+[34496:1022/212517.943:ERROR:cache_util_win.cc(20)] Unable to move the cache: 拒绝访问。 (0x5)
+[34496:1022/212517.943:ERROR:cache_util_win.cc(20)] Unable to move the cache: 拒绝访问。 (0x5)

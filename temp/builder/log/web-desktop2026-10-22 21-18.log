@@ -1,0 +1,344 @@
+2026-10-22 21:18:47 - debug: =================================== build Task (web-desktop) Start ================================
+2026-10-22 21:18:47 - debug: Start build task, options:{"platform":"web-desktop","debug":true,"outputName":"web-desktop","taskName":"web-desktop","buildMode":"normal","mainBundleCompressionType":"merge_dep","packages":{"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false},"web-desktop":{"useWebGPU":false,"resolution":{"designWidth":1280,"designHeight":960}}},"name":"auto-chess-3d","server":"","engineModulesConfigKey":"defaultConfig","buildPath":"project://build","mangleProperties":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"on","physics":"inherit-project-setting","physics-2d":"inherit-project-setting"},"macroConfig":{"cleanupImageCache":"inherit-project-setting"}},"nativeCodeBundleMode":"both","polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"inlineEnum":true,"useBuiltinServer":false,"md5CacheOptions":{"excludes":[],"includes":[],"replaceOnly":[],"handleTemplateMd5Link":true},"mainBundleIsRemote":false,"useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"3f2a7c81-6d4b-4e2a-9c15-8b7d5e1a4f30","scenes":[{"url":"db://assets/Scene/Main.scene","uuid":"3f2a7c81-6d4b-4e2a-9c15-8b7d5e1a4f30"}],"wasmCompressionMode":false,"binGroupConfig":{"threshold":16,"enable":false},"logDest":"project://temp/builder/log/web-desktop2026-10-22 21-18.log"}
+2026-10-22 21:18:47 - debug: Build with Cocos Creator 3.8.8
+2026-10-22 21:18:47 - debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+2026-10-22 21:18:47 - debug: // ---- build task cocos-service：onBeforeBuild ----
+2026-10-22 21:18:47 - debug: // ---- build task cocos-service：onBeforeBuild ---- (114ms)
+2026-10-22 21:18:47 - debug: cocos-service:(onBeforeBuild) in 114 ms ✓, progress: 2%
+2026-10-22 21:18:47 - debug: scene:(onBeforeBuild) start..., progress: 2%
+2026-10-22 21:18:47 - debug: // ---- build task scene：onBeforeBuild ----
+2026-10-22 21:18:47 - debug: // ---- build task scene：onBeforeBuild ---- (2ms)
+2026-10-22 21:18:47 - debug: scene:(onBeforeBuild) in 2 ms ✓, progress: 4%
+2026-10-22 21:18:48 - debug: Start lock asset db..., progress: 4%
+2026-10-22 21:18:48 - log: Asset DB is paused with build!
+2026-10-22 21:18:48 - debug: Query all assets info in project
+2026-10-22 21:18:49 - debug: init custom config: keepNodeUuid: false, useCache: true
+2026-10-22 21:18:49 - debug: web-desktop:(onAfterInit) start..., progress: 4%
+2026-10-22 21:18:49 - debug: // ---- build task web-desktop：onAfterInit ----
+2026-10-22 21:18:49 - debug: // ---- build task web-desktop：onAfterInit ---- (22ms)
+2026-10-22 21:18:49 - debug: web-desktop:(onAfterInit) in 22 ms ✓, progress: 5%
+2026-10-22 21:18:49 - debug: cocos-service:(onAfterInit) start..., progress: 5%
+2026-10-22 21:18:49 - debug: // ---- build task cocos-service：onAfterInit ----
+2026-10-22 21:18:49 - debug: // ---- build task cocos-service：onAfterInit ---- (2ms)
+2026-10-22 21:18:49 - debug: cocos-service:(onAfterInit) in 2 ms ✓, progress: 7%
+2026-10-22 21:18:49 - debug: Skip compress image, progress: 0%
+2026-10-22 21:18:49 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 7%
+2026-10-22 21:18:49 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 0%
+2026-10-22 21:18:49 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2026-10-22 21:18:49 - debug: [adsense-h5g-plugin] remove script success
+2026-10-22 21:18:49 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (14ms)
+2026-10-22 21:18:49 - debug(2): adsense-h5g-plugin:(onBeforeBundleInit) in 14 ms ✓, progress: 7%
+2026-10-22 21:18:49 - debug(2): Init all bundles start..., progress: 7%
+2026-10-22 21:18:49 - debug(2): Num of bundles: 2..., progress: 7%
+2026-10-22 21:18:49 - debug(2): web-desktop:(onAfterBundleInit) start..., progress: 7%
+2026-10-22 21:18:49 - debug: // ---- build task web-desktop：onAfterBundleInit ----
+2026-10-22 21:18:49 - debug: // ---- build task web-desktop：onAfterBundleInit ---- (2ms)
+2026-10-22 21:18:49 - debug: web-desktop:(onAfterBundleInit) in 2 ms ✓, progress: 7%
+2026-10-22 21:18:49 - debug: web-desktop:(onAfterBundleInit) in 2 ms ✓, progress: 13%
+2026-10-22 21:18:49 - debug: 查询 Asset Bundle start, progress: 7%
+2026-10-22 21:18:49 - debug: // ---- build task 查询 Asset Bundle ----
+2026-10-22 21:18:49 - debug: Init bundle root assets start..., progress: 7%
+2026-10-22 21:18:49 - debug: Init bundle root assets start..., progress: 13%
+2026-10-22 21:18:49 - debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1,5c601d96-e4c7-4698-991b-7ee674b11079
+2026-10-22 21:18:49 - debug:   Number of all scenes: 1
+2026-10-22 21:18:49 - debug:   Number of all scripts: 17
+2026-10-22 21:18:49 - debug:   Number of other assets: 312
+2026-10-22 21:18:49 - debug: Init bundle root assets success..., progress: 7%
+2026-10-22 21:18:49 - debug: Init bundle root assets success..., progress: 13%
+2026-10-22 21:18:49 - debug: reload all scripts.
+2026-10-22 21:18:49 - log: creating executor ...
+2026-10-22 21:18:49 - debug: [[Executor]] reload before lock
+2026-10-22 21:18:49 - debug: Set detail map pack:///resolution-detail-map.json: {}
+2026-10-22 21:18:49 - groupCollapsed: Invalidate all modules
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgpu" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/rich-text" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/mask" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/graphics" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui-skew" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/affine-transform" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting-2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-cannon" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-physx" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-ammo" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-builtin" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-jsb" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-builtin" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/vendor-google" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline-post-process" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/legacy-pipeline" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgpu" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/rich-text" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/mask" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/graphics" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui-skew" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/affine-transform" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting-2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-cannon" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-physx" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-ammo" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-builtin" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-builtin" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline-post-process" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/legacy-pipeline" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/vendor-google" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-jsb" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2026-10-22 21:18:49 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2026-10-22 21:18:49 - groupEnd: Invalidate all modules
+2026-10-22 21:18:49 - groupCollapsed: Imports all modules
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\50\50ec684ab28702df18cf262b25c26ec6d899c3a5.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\50\50ec684ab28702df18cf262b25c26ec6d899c3a5.js is not in module cache!
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\e2\e2831fde95d58c09916d0f882742b7597544b8d1.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\e2\e2831fde95d58c09916d0f882742b7597544b8d1.js is not in module cache!
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\b1\b18130d786bcadd1d0cb653401afdf2ede79b799.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\b1\b18130d786bcadd1d0cb653401afdf2ede79b799.js is not in module cache!
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\fd\fd74c742a972dbbcd3691d204a338b19a4515b62.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\fd\fd74c742a972dbbcd3691d204a338b19a4515b62.js is not in module cache!
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\7d\7dd5f1b51da4ae6cb44c6f9d41d8fc719b109223.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\7d\7dd5f1b51da4ae6cb44c6f9d41d8fc719b109223.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/7d/7dd5f1b51da4ae6cb44c6f9d41d8fc719b109223.js" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Register BuiltinPipelineSettings
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/e2/e2831fde95d58c09916d0f882742b7597544b8d1.js" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/fd/fd74c742a972dbbcd3691d204a338b19a4515b62.js" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Register BuiltinPipelinePassBuilder
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/b1/b18130d786bcadd1d0cb653401afdf2ede79b799.js" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Register BuiltinDepthOfFieldPass
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/50/50ec684ab28702df18cf262b25c26ec6d899c3a5.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\62\621a159ce4a7bac550092546e00c97e12458f12b.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\62\621a159ce4a7bac550092546e00c97e12458f12b.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Register DebugViewRuntimeControl
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/62/621a159ce4a7bac550092546e00c97e12458f12b.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\70\70e80a88e0d8ba5d24d95304c3680f51f6fe76ae.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\70\70e80a88e0d8ba5d24d95304c3680f51f6fe76ae.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/70/70e80a88e0d8ba5d24d95304c3680f51f6fe76ae.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\00\008f876975a73ab20b4c0bcba4d09c25b5b1b0ef.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\00\008f876975a73ab20b4c0bcba4d09c25b5b1b0ef.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/00/008f876975a73ab20b4c0bcba4d09c25b5b1b0ef.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\2a\2a86cb1dd06553d9cefbc4245e409e1b2ed16ef0.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\2a\2a86cb1dd06553d9cefbc4245e409e1b2ed16ef0.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/2a/2a86cb1dd06553d9cefbc4245e409e1b2ed16ef0.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\98\98ced39871e950753513e4771c6b29e7dd3fef9b.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\98\98ced39871e950753513e4771c6b29e7dd3fef9b.js is not in module cache!
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\5c\5c2cdac40a0a7a8671b487e0fce1ace50d7fa160.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\5c\5c2cdac40a0a7a8671b487e0fce1ace50d7fa160.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/5c/5c2cdac40a0a7a8671b487e0fce1ace50d7fa160.js" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/98/98ced39871e950753513e4771c6b29e7dd3fef9b.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\fc\fcc501611b7f1601ad161cc5886c505be9e06c02.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\fc\fcc501611b7f1601ad161cc5886c505be9e06c02.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/fc/fcc501611b7f1601ad161cc5886c505be9e06c02.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\af\af4da84082741995800b17bdb84f69e2a324308d.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\af\af4da84082741995800b17bdb84f69e2a324308d.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Register BattleManager
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/af/af4da84082741995800b17bdb84f69e2a324308d.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\2c\2cebcc963530cf6f37fc84e0b0287654e4b51b3b.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\2c\2cebcc963530cf6f37fc84e0b0287654e4b51b3b.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Register BoardManager
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/2c/2cebcc963530cf6f37fc84e0b0287654e4b51b3b.js" loaded.
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\78\7803d1bc343d3c38faf78008485e8744f7d4b762.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\78\7803d1bc343d3c38faf78008485e8744f7d4b762.js is not in module cache!
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\4b\4b0fce19ecd31740b6a43a59b6168842fbee0ad1.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\4b\4b0fce19ecd31740b6a43a59b6168842fbee0ad1.js is not in module cache!
+2026-10-22 21:18:49 - debug: H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\05\0521edaecbcba83f07a22f606b331b69ffb08d36.js resolved to H:\work\aiGame3D\AutoChess3D\temp\programming\packer-driver\targets\editor\chunks\05\0521edaecbcba83f07a22f606b331b69ffb08d36.js is not in module cache!
+2026-10-22 21:18:49 - debug: [[Executor]] Register ChessUnit
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/4b/4b0fce19ecd31740b6a43a59b6168842fbee0ad1.js" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/05/0521edaecbcba83f07a22f606b331b69ffb08d36.js" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Register GameManager
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/78/7803d1bc343d3c38faf78008485e8744f7d4b762.js" loaded.
+2026-10-22 21:18:49 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2026-10-22 21:18:49 - groupEnd: Imports all modules
+2026-10-22 21:18:49 - debug: [[Executor]] after unlock
+2026-10-22 21:18:49 - debug: Incremental keys: regeneratorRuntime,b2jsb
+2026-10-22 21:18:49 - debug: Init bundle share assets start..., progress: 7%
+2026-10-22 21:18:49 - debug: Init bundle share assets start..., progress: 13%
+2026-10-22 21:18:49 - debug: Init bundle share assets success..., progress: 7%
+2026-10-22 21:18:49 - debug: Init bundle share assets success..., progress: 13%
+2026-10-22 21:18:49 - debug: handle json group in bundle internal
+2026-10-22 21:18:49 - debug: handle json group in bundle internal success
+2026-10-22 21:18:49 - debug: handle json group in bundle main
+2026-10-22 21:18:49 - debug: init image compress task 0 in bundle internal
+2026-10-22 21:18:49 - debug: handle json group in bundle main success
+2026-10-22 21:18:49 - debug: init image compress task 0 in bundle main
+2026-10-22 21:18:49 - debug: // ---- build task 查询 Asset Bundle ---- (820ms)
+2026-10-22 21:18:49 - log: run build task 查询 Asset Bundle success in 820 ms√, progress: 12%
+2026-10-22 21:18:49 - debug: [Build Memory track]: 查询 Asset Bundle start:232.53MB, end 235.96MB, increase: 3.44MB
+2026-10-22 21:18:49 - debug: 查询 Asset Bundle start, progress: 12%
+2026-10-22 21:18:49 - debug: // ---- build task 查询 Asset Bundle ----
+2026-10-22 21:18:49 - debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2026-10-22 21:18:49 - log: run build task 查询 Asset Bundle success in 3 ms√, progress: 17%
+2026-10-22 21:18:49 - debug: [Build Memory track]: 查询 Asset Bundle start:236.01MB, end 236.13MB, increase: 118.74KB
+2026-10-22 21:18:49 - debug: 打包脚本 start, progress: 17%
+2026-10-22 21:18:49 - debug: // ---- build task 打包脚本 ----
+2026-10-22 21:18:50 - log: [buildPolyfillsCommand]enter sub process 34352, 9229, see: chrome://inspect/#devices
+2026-10-22 21:18:54 - debug: execute-script-end with buildPolyfillsCommand 4132ms
+2026-10-22 21:18:54 - debug: Generate systemJs..., progress: 17%
+2026-10-22 21:18:55 - debug: execute-script-end with buildSystemJsCommand 1735ms
+2026-10-22 21:18:55 - debug: 构建项目脚本 start..., progress: 17%
+2026-10-22 21:18:55 - debug: 构建项目脚本 start..., progress: 13%
+2026-10-22 21:18:57 - log: [buildScriptCommand]Number of non-entry chunks: 2
+2026-10-22 21:18:57 - debug: execute-script-end with buildScriptCommand 1959ms
+2026-10-22 21:18:57 - debug: Copy externalScripts success!
+2026-10-22 21:18:57 - debug: 构建项目脚本 in (1976 ms) √, progress: 17%
+2026-10-22 21:18:57 - debug: 构建项目脚本 in (1976 ms) √, progress: 13%
+2026-10-22 21:18:57 - debug: 构建引擎脚本 start..., progress: 17%
+2026-10-22 21:18:57 - debug: mangleProperties is enabled, found engine-mangle-config.json, use it
+2026-10-22 21:18:57 - debug: Error: Exit process with code:null, signal:SIGTERM in task build-script    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:2409)    at ChildProcess.emit (node:events:519:28)    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2026-10-22 21:18:57 - debug: Use cache engine: {link(C:\Users\Admin\AppData\Local\Temp\CocosCreator\3.8.8\builder\engine\6a005a0a40beec5a3c7d8b7df58a7bf1)}
+2026-10-22 21:18:57 - debug: Use cache, md5String: debug=true,sourceMaps=false,includeModules=["2d","3d","affine-transform","animation","audio","base","custom-pipeline","gfx-webgl","gfx-webgl2","graphics","intersection-2d","mask","primitive","profiler","tween","ui","custom-pipeline-builtin-scripts"],engineVersion="3.8.8",platformType="HTML5",split=undefined,nativeCodeBundleMode="both",targets=undefined,entry="C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine",noDeprecatedFeatures=undefined,loose=true,assetURLFormat="runtime-resolved",flags={"DEBUG":true,"LOAD_BULLET_MANUALLY":false,"LOAD_SPINE_MANUALLY":false,"WEBGPU":false},preserveType=undefined,wasmCompressionMode=false,enableNamedRegisterForSystemJSModuleFormat=undefined,mangleProperties=false,inlineEnum=true,
+2026-10-22 21:18:57 - debug: Use cache, options: {  "entry": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine",  "debug": true,  "mangleProperties": false,  "inlineEnum": true,  "sourceMaps": false,  "includeModules": [    "2d",    "3d",    "affine-transform",    "animation",    "audio",    "base",    "custom-pipeline",    "gfx-webgl",    "gfx-webgl2",    "graphics",    "intersection-2d",    "mask",    "primitive",    "profiler",    "tween",    "ui",    "custom-pipeline-builtin-scripts"  ],  "engineVersion": "3.8.8",  "md5Map": [],  "engineName": "cocos-js",  "output": "H:\\work\\aiGame3D\\AutoChess3D\\build\\web-desktop\\cocos-js",  "platformType": "HTML5",  "useCache": true,  "nativeCodeBundleMode": "both",  "wasmCompressionMode": false,  "assetURLFormat": "runtime-resolved",  "flags": {    "DEBUG": true,    "LOAD_BULLET_MANUALLY": false,    "LOAD_SPINE_MANUALLY": false,    "WEBGPU": false  }}
+2026-10-22 21:18:58 - debug: 构建引擎脚本 in (273 ms) √, progress: 17%
+2026-10-22 21:18:58 - debug: Copy plugin script ..., progress: 17%
+2026-10-22 21:18:58 - debug: Generate import-map..., progress: 17%
+2026-10-22 21:18:58 - debug: // ---- build task 打包脚本 ---- (8180ms)
+2026-10-22 21:18:58 - log: run build task 打包脚本 success in 8 s√, progress: 22%
+2026-10-22 21:18:58 - debug: [Build Memory track]: 打包脚本 start:236.25MB, end 235.35MB, increase: -925.45KB
+2026-10-22 21:18:58 - debug: Build Assets start, progress: 22%
+2026-10-22 21:18:58 - debug: // ---- build task Build Assets ----
+2026-10-22 21:18:58 - debug: Build bundles..., progress: 22%
+2026-10-22 21:18:58 - debug: Pack Images start, progress: 22%
+2026-10-22 21:18:58 - debug: Pack Images start, progress: 13%
+2026-10-22 21:18:58 - debug: Number of pac assets: 1
+2026-10-22 21:18:58 - debug: No pack results
+2026-10-22 21:18:58 - debug: Compress image start..., progress: 22%
+2026-10-22 21:18:58 - debug: Compress image start..., progress: 13%
+2026-10-22 21:18:58 - group: Compress image...
+2026-10-22 21:18:58 - debug: sort compress task {}
+2026-10-22 21:18:58 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+2026-10-22 21:18:58 - debug: No image need to compress
+2026-10-22 21:18:58 - groupEnd: Compress image...
+2026-10-22 21:18:58 - debug: Compress image success..., progress: 22%
+2026-10-22 21:18:58 - debug: Compress image success..., progress: 13%
+2026-10-22 21:18:58 - debug: Output asset in bundles start, progress: 22%
+2026-10-22 21:18:58 - debug: Output asset in bundles start, progress: 13%
+2026-10-22 21:18:58 - debug: Handle all json groups in bundle internal
+2026-10-22 21:18:58 - debug: handle json group
+2026-10-22 21:18:58 - debug: Handle all json groups in bundle main
+2026-10-22 21:18:58 - debug: handle json group
+2026-10-22 21:18:58 - debug: Json group(0d60d7d58) compile success，json number: 6
+2026-10-22 21:18:58 - debug: handle single json
+2026-10-22 21:18:58 - debug: Json group(0cbe0b5a3) compile success，json number: 6
+2026-10-22 21:18:58 - debug: handle single json
+2026-10-22 21:18:58 - debug: Output asset in bundles success, progress: 22%
+2026-10-22 21:18:58 - debug: Output asset in bundles success, progress: 13%
+2026-10-22 21:18:58 - debug: Output asset in bundles start, progress: 22%
+2026-10-22 21:18:58 - debug: Output asset in bundles start, progress: 13%
+2026-10-22 21:18:58 - debug: output config of bundle internal
+2026-10-22 21:18:58 - debug: output config of bundle internal success
+2026-10-22 21:18:58 - debug: output config of bundle main
+2026-10-22 21:18:58 - debug: output config of bundle main success
+2026-10-22 21:18:58 - debug: Output asset in bundles success, progress: 22%
+2026-10-22 21:18:58 - debug: Output asset in bundles success, progress: 13%
+2026-10-22 21:18:58 - debug: // ---- build task Build Assets ---- (248ms)
+2026-10-22 21:18:58 - log: run build task Build Assets success in 248 ms√, progress: 27%
+2026-10-22 21:18:58 - debug: [Build Memory track]: Build Assets start:235.39MB, end 242.81MB, increase: 7.41MB
+2026-10-22 21:18:58 - debug: 整理部分构建选项内数据到 settings.json start, progress: 27%
+2026-10-22 21:18:58 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2026-10-22 21:18:58 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2026-10-22 21:18:58 - log: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 29%
+2026-10-22 21:18:58 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:242.89MB, end 242.92MB, increase: 32.14KB
+2026-10-22 21:18:58 - debug: 填充脚本数据到 settings.json start, progress: 29%
+2026-10-22 21:18:58 - debug: // ---- build task 填充脚本数据到 settings.json ----
+2026-10-22 21:18:58 - debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
+2026-10-22 21:18:58 - log: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 31%
+2026-10-22 21:18:58 - debug: [Build Memory track]: 填充脚本数据到 settings.json start:242.96MB, end 242.99MB, increase: 31.13KB
+2026-10-22 21:18:58 - debug: 整理部分构建选项内数据到 settings.json start, progress: 31%
+2026-10-22 21:18:58 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2026-10-22 21:18:58 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
+2026-10-22 21:18:58 - log: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 32%
+2026-10-22 21:18:58 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:243.03MB, end 243.17MB, increase: 150.03KB
+2026-10-22 21:18:58 - debug: web-desktop:(onBeforeCompressSettings) start..., progress: 32%
+2026-10-22 21:18:58 - debug: // ---- build task web-desktop：onBeforeCompressSettings ----
+2026-10-22 21:18:58 - debug: // ---- build task web-desktop：onBeforeCompressSettings ---- (2ms)
+2026-10-22 21:18:58 - debug: web-desktop:(onBeforeCompressSettings) in 2 ms ✓, progress: 34%
+2026-10-22 21:18:58 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 34%
+2026-10-22 21:18:58 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2026-10-22 21:18:58 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (3ms)
+2026-10-22 21:18:58 - debug: cocos-service:(onBeforeCompressSettings) in 3 ms ✓, progress: 36%
+2026-10-22 21:18:58 - debug: 整理静态模板文件 start, progress: 36%
+2026-10-22 21:18:58 - debug: // ---- build task 整理静态模板文件 ----
+2026-10-22 21:18:58 - debug: // ---- build task 整理静态模板文件 ---- (75ms)
+2026-10-22 21:18:58 - log: run build task 整理静态模板文件 success in 75 ms√, progress: 41%
+2026-10-22 21:18:58 - debug: [Build Memory track]: 整理静态模板文件 start:243.36MB, end 245.94MB, increase: 2.58MB
+2026-10-22 21:18:58 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 41%
+2026-10-22 21:18:58 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2026-10-22 21:18:58 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (3ms)
+2026-10-22 21:18:58 - debug: cocos-service:(onAfterCompressSettings) in 3 ms ✓, progress: 43%
+2026-10-22 21:18:58 - debug: web-desktop:(onBeforeCopyBuildTemplate) start..., progress: 43%
+2026-10-22 21:18:58 - debug: // ---- build task web-desktop：onBeforeCopyBuildTemplate ----
+2026-10-22 21:18:58 - debug: // ---- build task web-desktop：onBeforeCopyBuildTemplate ---- (26ms)
+2026-10-22 21:18:58 - debug: web-desktop:(onBeforeCopyBuildTemplate) in 26 ms ✓, progress: 45%
+2026-10-22 21:18:58 - debug: 给所有的资源加上 MD5 后缀 start, progress: 45%
+2026-10-22 21:18:58 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2026-10-22 21:18:58 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (2ms)
+2026-10-22 21:18:58 - log: run build task 给所有的资源加上 MD5 后缀 success in 2 ms√, progress: 55%
+2026-10-22 21:18:58 - debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:244.34MB, end 244.37MB, increase: 29.38KB
+2026-10-22 21:18:58 - debug: web-desktop:(onAfterBuild) start..., progress: 55%
+2026-10-22 21:18:58 - debug: // ---- build task web-desktop：onAfterBuild ----
+2026-10-22 21:18:58 - debug: // ---- build task web-desktop：onAfterBuild ---- (5ms)
+2026-10-22 21:18:58 - debug: web-desktop:(onAfterBuild) in 5 ms ✓, progress: 56%
+2026-10-22 21:18:58 - debug: cocos-service:(onAfterBuild) start..., progress: 56%
+2026-10-22 21:18:58 - debug: // ---- build task cocos-service：onAfterBuild ----
+2026-10-22 21:18:58 - debug: // ---- build task cocos-service：onAfterBuild ---- (4ms)
+2026-10-22 21:18:58 - debug: cocos-service:(onAfterBuild) in 4 ms ✓, progress: 58%
+2026-10-22 21:18:58 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 58%
+2026-10-22 21:18:58 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2026-10-22 21:18:58 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (2ms)
+2026-10-22 21:18:58 - debug: adsense-h5g-plugin:(onAfterBuild) in 2 ms ✓, progress: 60%
+2026-10-22 21:18:58 - log: Asset DB is resume!
+2026-10-22 21:18:58 - debug: builder:build-project-total (10753ms)
+2026-10-22 21:18:58 - debug: build task(web-desktop) in 10753!
+2026-10-22 21:18:58 - debug: [Build Memory track]: builder:build-project-total start:234.84MB, end 244.81MB, increase: 9.97MB
+2026-10-22 21:18:58 - debug: ================================ build Task (web-desktop) Finished in (10 s)ms ================================
